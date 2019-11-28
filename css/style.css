@@ -1,0 +1,301 @@
+/* Author
+
+Name : Minto Paul;
+Mail: mintopaul1350@gmail.com
+
+
+*/
+
+
+/*
+====Index====
+1. Header
+2. Banner
+3.Fusce
+4.Facilisis
+5.Ante donec
+6.Blandit rhoncus
+7.Placerat
+8.Footer
+
+*/
+/*Global CSS*/
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    color: #fff;
+    font-size: 72px;
+}
+h2{
+    color: #fff;
+    font-size: 30px;
+}
+h3{
+    
+}
+h4{
+    color: #fff;
+    font-size: 22px;
+    margin-top: 10px;
+}
+h5{
+    
+}
+h6{
+    color: #fff;
+    font-size: 18px;
+}
+p{
+    color: #161616;
+    font-size: 18px;
+}
+.btn{
+    
+}
+.img-center{
+    display: block;
+    margin: 0 auto;
+}
+.no-padding{
+    padding: 0px;
+}
+/*Theme CSS*/
+ 
+/*Header Section Start*/
+header{
+    
+}
+.nav-head{
+    background-color: #edeff1 !important;
+    padding: 35px 0px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #161616;
+    padding: 5px 15px;
+    padding-bottom: 7px;
+    transition: .3s;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #dd4b2b;
+    border-radius: 50px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+.nav-item {
+    margin: 0px 5px;
+}
+a.nav-link.js-scroll-trigger:active{
+    background-color: #dd4b2b;
+    
+}
+/*Header Section End*/
+
+/*Hero Section Start*/
+.hero{
+    background: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.food-item h6{
+    padding: 5px 10px;
+}
+.hero-title{
+    text-align: center;
+    padding-top: 260px;
+    padding-bottom: 20px;
+}
+.food-item{
+    text-align: center;
+    
+}
+
+.btn-one{
+    background-color: #fff;
+    color: #a07b73;
+    margin: 10% auto 5%;
+    padding: 20px 50px;
+    display: block;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}
+
+.btn-sign{
+    color: #fff;
+    background-color: #dd4b2b;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 40px;
+    display: block;
+    margin: 5px auto;
+}
+.btn-sign2{
+    color: #fff;
+    background-color: #4b4e73;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 40px;
+    display: block;
+    margin: 5px auto;
+}
+/*Hero Section Start*/
+
+/*News Section Start*/
+.news{
+    float: left;
+    text-align: center;
+    background-color: #d3dfea;
+    
+}
+.news-title{
+    text-align: center;
+}
+.news-title h2{
+    color: #31353e;
+    padding: 50px 0px;
+}
+.news-item{
+    text-align: center;
+}
+.news-item h4{
+    color: #31353e;
+}
+.news-item h6{
+    color: #63676e;
+}
+
+
+
+/*News Section End*/
+
+.contact-us{
+    
+    background: url(../img/contactn.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .377rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #fff;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 26px;
+    background: transparent;
+    padding: 20px;
+    position: relative;
+}
+input.btn-two {
+    color: darkred;
+    background: #fff;
+    padding: 10px 72px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: darked;
+    position: absolute;
+    top: 108px;
+    right: 0px;
+}
+.btn-two{
+    background-color: #fff;
+    color: #5a5d64;
+    margin: 5px auto;
+    padding: 15px 30px;
+    display: block;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+}
+/*Gallery Part Start*/
+
+.gallery{
+    
+}
+
+/*Gallery Part End*/
+.footer-top{
+    background-color: #d75d0e;
+}
+footer{
+    background: url(../img/footer.png);
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+}
+.fot{
+    color: #fff;
+    list-style-type: none;
+}
+input::placeholder{
+    color: #fff!important;
+}
+@media all and (max-width:500px){
+    h1{
+   
+    font-size: 30px;
+}
+    .news-title h2{
+   
+    padding:n;
+}
+    h6,h3,h2,h4{
+   padding-top: 10px;
+    font-size: 14px;
+        text-align: center;
+}
+    p{
+        font-size: 12px;
+    }
+    .fot{
+        font-size: 14px;
+        float: left;
+        text-align: center;
+        color: aqua;
+    }
+    .footer-part p{
+        color: aqua;
+    }
+    .form-control {
+    width: 50%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .107rem .75rem;
+    margin-top: 10%;
+    border: 1px solid #ced4da;
+    padding: 20px;
+   
+}
+input.btn-two {
+   
+    padding: 10px 35px;
+    margin-top: 2%;
+    color: darked;
+    position: absolute;
+    top: 125px;
+    margin-right: 0px;
+}
+    .btn-one{
+    padding: 10px 30px;
+    font-size: 16px;
+}
+    .btn-sign{
+    margin: 20px auto;
+}
+}
+
+
+
